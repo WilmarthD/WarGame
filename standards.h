@@ -11,7 +11,7 @@
 //		Set - N/A
 //		Print - N/A
 //	Other Methods:
-//	PrintHeader, PrintDivider, PrintCenteredMessage, PrintFileName, CheckInput
+//	PrintDivider, PrintCenteredMessage, PrintFileName, CheckInput
 //	Friends:
 //	Destructor
 //--------------------------------------------------------------------------------------------------
@@ -22,14 +22,6 @@
 #include <iomanip>
 
 using namespace std;
-
-//College header strings
-const string COLLEGE = "SUNY Broome Community College";
-const string PROGRAMMER_NAME = "Dylan Wilmarth";
-const string COURSE = "CST 202 - Lab 4";
-
-//Print Course Heading
-void PrintHeader(void);
 
 //Print Divider
 void PrintDivider(ofstream& output, char symbol, int length);
