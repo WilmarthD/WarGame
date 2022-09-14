@@ -52,9 +52,6 @@ int main(void)
 	//Seed random 
 	srand((unsigned int)time(NULL));
 
-	//Print school header
-	PrintHeader();
-
 	//Shuffle deck
 	deck.ShuffleTheDeck();
 
