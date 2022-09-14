@@ -9,7 +9,7 @@
 //		Set - N/A 
 //		Print - N/A 
 //	Other Methods:
-//	PrintHeader, PrintDivider, PrintCenteredMessage, PrintFileName, CheckInput 
+//	PrintDivider, PrintCenteredMessage, PrintFileName, CheckInput 
 //
 //	Friends:
 //	Destructor
