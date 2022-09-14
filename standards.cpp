@@ -17,32 +17,6 @@
 
 #include "standards.h"
 
-void PrintHeader(void)
-///////////////////////////////////////////////////////////////////////////////////////////////////
-// Function Name: PrintHeader
-// Description: Prints course header to output file and screen
-//
-///////////////////////////////////////////////////////////////////////////////////////////////////
-{
-	int width = 100;
-
-	int stringLengthCollege;
-	int stringLengthName;
-	int stringLengthExample;
-
-	//calculate sting lengths
-	stringLengthCollege = static_cast<int>(COLLEGE.length());
-	stringLengthName = static_cast<int>(PROGRAMMER_NAME.length());
-	stringLengthExample = static_cast<int>(COURSE.length());
-
-	//Output course heading to screen
-	PrintDivider(static_cast<ofstream&>(cout), '-', width);
-	cout << setfill(' ') << setw((width + stringLengthCollege) / 2) << COLLEGE << endl;
-	cout << setw((width + stringLengthName) / 2) << PROGRAMMER_NAME << endl;
-	cout << setw((width + stringLengthExample) / 2) << COURSE << endl;
-	PrintDivider(static_cast<ofstream&>(cout), '-', width);
-}
-
 void PrintDivider(ofstream& output, char symbol, int length)
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 // Function Name: OutputDivider
